@@ -106,15 +106,15 @@ class _MyHomePageState extends State<MyHomePage> {
           decoration: InputDecoration(
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(5.0),
-              borderSide: const BorderSide(color: Colors.purple), // Contorno morado
+              borderSide: const BorderSide(color: Colors.purple),
             ),
             enabledBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(5.0),
-              borderSide: const BorderSide(color: Colors.purple), // Contorno morado
+              borderSide: const BorderSide(color: Colors.purple),
             ),
             focusedBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(5.0),
-              borderSide: const BorderSide(color: Colors.purple, width: 2.0), // Contorno morado más grueso al enfocar
+              borderSide: const BorderSide(color: Colors.purple, width: 2.0),
             ),
           ),
         ),
@@ -133,12 +133,12 @@ class _MyHomePageState extends State<MyHomePage> {
           padding: const EdgeInsets.symmetric(horizontal: 12),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(5.0),
-            border: Border.all(color: Colors.purple), // Contorno morado
+            border: Border.all(color: Colors.purple),
           ),
           child: DropdownButton<String>(
             value: _selectedOperation,
             isExpanded: true,
-            underline: Container(), // Eliminar la línea inferior predeterminada del DropdownButton
+            underline: Container(),
             items: ['Suma', 'Resta', 'Multiplicación', 'División']
                 .map((String value) {
               return DropdownMenuItem<String>(
@@ -169,15 +169,15 @@ class _MyHomePageState extends State<MyHomePage> {
           decoration: InputDecoration(
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(5.0),
-              borderSide: const BorderSide(color: Colors.purple), // Contorno morado
+              borderSide: const BorderSide(color: Colors.purple),
             ),
             enabledBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(5.0),
-              borderSide: const BorderSide(color: Colors.purple), // Contorno morado
+              borderSide: const BorderSide(color: Colors.purple),
             ),
             focusedBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(5.0),
-              borderSide: const BorderSide(color: Colors.purple, width: 2.0), // Contorno morado más grueso al enfocar
+              borderSide: const BorderSide(color: Colors.purple, width: 2.0),
             ),
           ),
         ),
@@ -186,6 +186,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
-
-
